@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video Downloader</string>
+
+    <string name="tab_home">Download</string>
+    <string name="tab_downloads">Downloads</string>
+    <string name="tab_settings">Settings</string>
+
+    <string name="home_hint">Paste a video link from any supported site, or share a link directly to this app.</string>
+    <string name="paste_link">Video link</string>
+    <string name="paste">Paste</string>
+    <string name="clear">Clear</string>
+    <string name="fetch_info">Fetch video info</string>
+    <string name="loading_info">Fetching info…</string>
+    <string name="choose_quality">Choose quality</string>
+    <string name="quality_best">Best</string>
+    <string name="quality_audio">Audio (MP3)</string>
+    <string name="start_download">Download</string>
+
+    <string name="err_invalid_url">Enter a valid link starting with http or https.</string>
+    <string name="err_fetch_failed">Could not fetch video info.</string>
+    <string name="err_wifi_only">Wi-Fi only is enabled and there is no Wi-Fi connection.</string>
+    <string name="err_no_output">The download finished but no file was found.</string>
+    <string name="err_save_failed">Could not save the file to storage.</string>
+
+    <string name="preparing">Preparing…</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="remove">Remove</string>
+    <string name="downloads_empty">No downloads yet</string>
+    <string name="clear_finished">Clear finished</string>
+
+    <string name="status_queued">Waiting in queue</string>
+    <string name="status_processing">Processing and saving…</string>
+    <string name="status_failed">Download failed</string>
+    <string name="status_canceled">Canceled</string>
+    <string name="status_completed">Completed</string>
+    <string name="eta_format">%1$s left</string>
+
+    <string name="open">Play</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="delete_title">Delete download</string>
+    <string name="delete_file_too">Delete file too</string>
+    <string name="remove_from_list">Remove from list only</string>
+    <string name="file_missing">File not found</string>
+    <string name="cannot_open">No app can open this file</string>
+
+    <string name="settings_wifi_only">Download on Wi-Fi only</string>
+    <string name="settings_wifi_only_desc">Prevents using mobile data</string>
+    <string name="settings_auto_update">Auto-update download engine</string>
+    <string name="settings_auto_update_desc">Checks once a day so supported sites keep working</string>
+    <string name="settings_update_now">Update engine now</string>
+    <string name="updating">Updating…</string>
+    <string name="update_done">Engine updated</string>
+    <string name="update_latest">Already up to date</string>
+    <string name="update_failed">Update failed: %1$s</string>
+    <string name="about_title">About</string>
+    <string name="save_location">Videos are saved to Movies/VideoGrab and audio to Music/VideoGrab.</string>
+    <string name="legal_note">Only download content you own or are allowed to download. DRM-protected content is not supported.</string>
+
+    <string name="notif_channel_progress">Download progress</string>
+    <string name="notif_channel_done">Finished downloads</string>
+    <string name="notif_done">Download complete</string>
+    <string name="notif_failed">Download failed</string>
+</resources>

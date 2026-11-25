@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محمّل الفيديو</string>
+
+    <string name="tab_home">تنزيل</string>
+    <string name="tab_downloads">التنزيلات</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <string name="home_hint">الصق رابط فيديو من أي موقع مدعوم، أو شارك الرابط مباشرة إلى التطبيق.</string>
+    <string name="paste_link">رابط الفيديو</string>
+    <string name="paste">لصق</string>
+    <string name="clear">مسح</string>
+    <string name="fetch_info">جلب معلومات الفيديو</string>
+    <string name="loading_info">جارٍ جلب المعلومات…</string>
+    <string name="choose_quality">اختر الجودة</string>
+    <string name="quality_best">أعلى جودة</string>
+    <string name="quality_audio">صوت فقط (MP3)</string>
+    <string name="start_download">تنزيل</string>
+
+    <string name="err_invalid_url">أدخل رابطًا صحيحًا يبدأ بـ http أو https.</string>
+    <string name="err_fetch_failed">تعذّر جلب معلومات الفيديو.</string>
+    <string name="err_wifi_only">خيار «Wi-Fi فقط» مفعّل ولا يوجد اتصال Wi-Fi.</string>
+    <string name="err_no_output">انتهى التنزيل لكن لم يتم العثور على الملف.</string>
+    <string name="err_save_failed">تعذّر حفظ الملف في وحدة التخزين.</string>
+
+    <string name="preparing">جارٍ التحضير…</string>
+    <string name="cancel">إلغاء</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="remove">إزالة</string>
+    <string name="downloads_empty">لا توجد تنزيلات بعد</string>
+    <string name="clear_finished">مسح المنتهية</string>
+
+    <string name="status_queued">في قائمة الانتظار</string>
+    <string name="status_processing">جارٍ المعالجة والحفظ…</string>
+    <string name="status_failed">فشل التنزيل</string>
+    <string name="status_canceled">تم الإلغاء</string>
+    <string name="status_completed">اكتمل التنزيل</string>
+    <string name="eta_format">المتبقي %1$s</string>
+
+    <string name="open">تشغيل</string>
+    <string name="share">مشاركة</string>
+    <string name="delete">حذف</string>
+    <string name="delete_title">حذف التنزيل</string>
+    <string name="delete_file_too">حذف الملف أيضًا</string>
+    <string name="remove_from_list">إزالة من القائمة فقط</string>
+    <string name="file_missing">الملف غير موجود</string>
+    <string name="cannot_open">لا يوجد تطبيق يفتح هذا الملف</string>
+
+    <string name="settings_wifi_only">التنزيل عبر Wi-Fi فقط</string>
+    <string name="settings_wifi_only_desc">يمنع استهلاك بيانات الجوال</string>
+    <string name="settings_auto_update">تحديث محرك التنزيل تلقائيًا</string>
+    <string name="settings_auto_update_desc">يتحقق مرة يوميًا ليستمر عمل المواقع المدعومة</string>
+    <string name="settings_update_now">تحديث المحرك الآن</string>
+    <string name="updating">جارٍ التحديث…</string>
+    <string name="update_done">تم تحديث المحرك</string>
+    <string name="update_latest">المحرك محدّث بالفعل</string>
+    <string name="update_failed">فشل التحديث: %1$s</string>
+    <string name="about_title">حول</string>
+    <string name="save_location">يُحفظ الفيديو في Movies/VideoGrab والصوت في Music/VideoGrab.</string>
+    <string name="legal_note">نزّل فقط المحتوى الذي تملكه أو يُسمح لك بتنزيله. المحتوى المحمي بتقنية DRM غير مدعوم.</string>
+
+    <string name="notif_channel_progress">تقدم التنزيل</string>
+    <string name="notif_channel_done">التنزيلات المنتهية</string>
+    <string name="notif_done">اكتمل التنزيل</string>
+    <string name="notif_failed">فشل التنزيل</string>
+</resources>
