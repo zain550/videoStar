@@ -59,13 +59,13 @@ fun SettingsScreen() {
             title = stringResource(R.string.settings_wifi_only),
             description = stringResource(R.string.settings_wifi_only_desc),
             checked = AppSettings.wifiOnly,
-            onChange = { AppSettings.setWifiOnly(it) },
+            onChange = { AppSettings.updateWifiOnly(it) },
         )
         SwitchRow(
             title = stringResource(R.string.settings_auto_update),
             description = stringResource(R.string.settings_auto_update_desc),
             checked = AppSettings.autoUpdate,
-            onChange = { AppSettings.setAutoUpdate(it) },
+            onChange = { AppSettings.updateAutoUpdate(it) },
         )
 
         HorizontalDivider()
