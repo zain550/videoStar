@@ -1,5 +1,6 @@
 package com.example.videograb.ui
 
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -11,7 +12,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
@@ -153,7 +153,7 @@ fun HomeScreen(vm: MainViewModel) {
                             modifier = Modifier
                                 .fillMaxWidth()
                                 .aspectRatio(16f / 9f)
-                                .clip(MaterialTheme.shapes.medium)
+                                .clip(MaterialTheme.shapes.medium),
                             contentAlignment = Alignment.Center,
                         ) {
                             if (meta.thumbnail != null) {
