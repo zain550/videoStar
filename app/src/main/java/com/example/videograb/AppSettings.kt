@@ -20,19 +20,25 @@ object AppSettings {
         autoUpdate = prefs.getBoolean("auto_update", true)
     }
 
-    fun setWifiOnly(value: Boolean) {
+    fun updateWifiOnly(value: Boolean) {
         wifiOnly = value
-        prefs.edit().putBoolean("wifi_only", value).apply()
+        if (::prefs.isInitialized) {
+            prefs.edit().putBoolean("wifi_only", value).apply()
+        }
     }
 
-    fun setAutoUpdate(value: Boolean) {
+    fun updateAutoUpdate(value: Boolean) {
         autoUpdate = value
-        prefs.edit().putBoolean("auto_update", value).apply()
+        if (::prefs.isInitialized) {
+            prefs.edit().putBoolean("auto_update", value).apply()
+        }
     }
 
     var lastUpdateCheck: Long
-        get() = prefs.getLong("last_update_check", 0L)
+        get() = if (::prefs.isInitialized) prefs.getLong("last_update_check", 0L) else 0L
         set(value) {
-            prefs.edit().putLong("last_update_check", value).apply()
+            if (::prefs.isInitialized) {
+                prefs.edit().putLong("last_update_check", value).apply()
+            }
         }
 }
